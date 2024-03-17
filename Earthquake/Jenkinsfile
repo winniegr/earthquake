@@ -1,8 +1,8 @@
 pipeline{
     agent {
         docker {
-            // image 'cimg/android:2023.09.1'
-            image 'cmii/android-build:1.0.0'
+             image 'cimg/android:2023.09.1'
+            //image 'cmii/android-build:1.0.0'
             // 共享Gradle下载缓存，使构建任务执行更快
             args '-v $HOME/.gradle:/root/.gradle'
         }
