@@ -4,6 +4,9 @@ pipeline{
             image 'allbears/jenkins-android:1.0.1'
         }
     }
+    environment {
+        DIR = 'Earthquake'
+    }
     stages {
         stage('Setup') {
           steps {
