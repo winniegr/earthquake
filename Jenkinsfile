@@ -1,7 +1,7 @@
 pipeline{
     agent {
         docker {
-            image 'allbears/jenkins-android:1.0.1'
+            image 'cimg/android:2023.09.1'
         }
     }
     stages {
