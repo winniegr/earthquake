@@ -2,7 +2,6 @@ pipeline{
     agent {
         docker {
             image 'cimg/android:2023.09.1'
-            args '-v $HOME/.m2:/root/.m2'
         }
     }
     stages {
