@@ -1,7 +1,7 @@
 pipeline{
     agent {
         docker {
-            allbears/jenkins-android:1.0.1
+            'allbears/jenkins-android:1.0.1'
         }
     }
     stages {
